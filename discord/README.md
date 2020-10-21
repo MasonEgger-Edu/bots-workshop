@@ -16,7 +16,7 @@ the following
 * Python3 installed
 * A discord server that you are the administrator of and can add bots to
 
-## Setting up your environment
+## Instructions
 
 1. Create your discord bot in the [Discord Developer Portal](https://realpython.com/how-to-make-a-discord-bot-python/#how-to-make-a-discord-bot-in-the-developer-portal)
 1. Create a folder for virtual environments if you don't already have one 

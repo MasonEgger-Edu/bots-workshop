@@ -16,7 +16,9 @@ Below is a list of current bots that are implemented
 rolls all the die (and dX).
 
 ### Slack
-There is a random bot in another repository, I'll move it over here later
+
+*Randombot* - Random bot is a simple bot that flips coins, picks a card, and 
+rolls all the die (and dX).
 
 ## Deployment
 All bots here are tested and work with DigitalOcean's App Platform. View the 

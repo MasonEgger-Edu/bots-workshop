@@ -1,0 +1,20 @@
+---
+    name: slackbot
+    services:
+    - name: slackbot
+      instance_count: 1
+      instance_size_slug: basic-xxs
+      github:
+        repo: <YOUR_GITHUB_REPO>
+        branch: main
+        deploy_on_push: true
+      run_command: gunicorn --worker-tmp-dir /dev/shm app:app
+      envs:
+      - key: SLACK_EVENTS_TOKEN
+        scope: RUN_AND_BUILD_TIME
+        value: <YOUR_SLACK_EVENTS_TOKEN>
+        type: SECRET
+      - key: SLACKBOT_TOKEN
+        scope: RUN_AND_BUILD_TIME
+        value:  <YOUR_SLACKBOT_TOKEN>
+        type: SECRET
