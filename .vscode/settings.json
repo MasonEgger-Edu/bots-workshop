@@ -1,0 +1,7 @@
+{
+    "python.linting.enabled": true,
+    "python.pythonPath": "/home/megger/.virtualenvs/discord/bin/python",
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.flake8Enabled": false
+}
