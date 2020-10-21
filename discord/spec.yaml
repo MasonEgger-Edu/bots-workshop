@@ -3,7 +3,7 @@
     workers:
     - name: discord-bot
       instance_count: 1
-      instance_size_slug: basic-xs
+      instance_size_slug: basic-xxs
       github:
         repo: <YOUR_GITHUB_REPO>
         branch: main
