@@ -26,11 +26,7 @@ the following
 1. Activate your python virtual environment
     1. `source ~/.venvs/discord/bin/activate`
 1. Install `discord.py`
-    1. **NOTE** Due to discord API changes, it is currently necessary to install
-    a version that is < 1.5
-    1. `pip install "discord.py>=1.4,<1.5"`
-    1. This will only work until Discord kills the v6 gateway. Then we'll actually
-    have to learn the new API
+    1. `pip install discord.py`
 1. Run `pip freeze > requirements.txt` so it can be uploaded to GitHub and installed
 in App Platform
 1. Write the code.
@@ -42,3 +38,7 @@ static site
 1. Either deploy a static site and then, after it is done deploy the bot as a
 worker 
 1. Or run `doctl apps create --spec spec.yaml`
+
+## Resources
+* [Intents API](https://discordpy.readthedocs.io/en/latest/api.html#discord.Intents)
+* [Discord Developer Portal](https://discord.com/developers/applications)

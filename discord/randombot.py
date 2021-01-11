@@ -4,7 +4,10 @@ import discord
 
 token = os.getenv("DISCORD_TOKEN")
 my_guild = os.getenv("DISCORD_GUILD")
-client = discord.Client()
+
+intents = discord.Intents.default()
+
+client = discord.Client(intents=intents)
 
 
 @client.event
